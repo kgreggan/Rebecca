@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}          
+
+h1 {
+  text-shadow: 2px 2px white;
+}  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+    </style>    
+    <meta charset="UTF-8">
+    <title>Karl's first website</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+    <html class="unit1-bg">
+    <div>
+    <p class = "menu2">    
+        <ul>   
+            <li><a href="index.html">Home</a></li>
+            <li><a href="unit1outcome1.html">Unit1</a></li>
+            <li><a href="unit2outcome1.html">Unit2</a></ul>
+            </ul>  
+    </p>     
+    </div><div>
+        <h1 class="makecenter">Unit 1</h1>
+    </div><div> 
+    <p class = "smalltext">Goto:
+        <br>
+        <a href="#1.1">1. Unit 1, Outcome 1</a>
+        <br>
+        <a href="#1.2">2. Unit 1, Outcome 2</a>
+        <br>
+        <a href="#1.3">3. Unit 1, Outcome 3</a>
+        <br>
+        </p>     
+        </div><div>
+        <a id="1.1">
+        </a>
+        <h2 class="h2diff">Unit 1, Outcome 1</h2>
+        <h2 class="italic">1.1 Describing the purpose of IT in modern business</h2>
+        <p>
+            The purpose of technology is in modern business is not limited to a single reason.  The role of technology in business is growing at a great pace, with no signs of slowing down.  In fact it is likely to grow at an even greater pace as demands for it increase, as new technology is developed, and as new ways to use this technology within business is found.
+            <br>
+            <br>
+            Firstly, technology is essential to business success. Externally, companies can use technology to reach a wider audience, for example a company website that can promote its business, or sell its goods to potential customers across the globe to anyone who has access to the internet.  Internally, businesses can use technology to streamline its day-to-day processes and operations (e.g. helpdesks, payroll, HR processes), to make these more efficient.  By introducing technology to perform mundane or time consuming tasks previously carried out by employees, the workforce, and ultimately the business, become more productive as it allows employees to focus their time elsewhere on more important duties. 
+            <br>
+            <br>
+            Technology can also increase efficiency and productivity by improving communication within the business.  The introduction of technology like, e-mail, instant messaging and video conferencing allow colleagues across multiple locations to collaborate and communicate without the time and expense of travelling.
+            <br>
+            <br>
+            Finally, technology can be used to protect a business’ important information and assets.  From confidential employee and customer data to a business’ intellectual property and assets, implementing cyber security can help protect these.
+        </p>
+        <h2 class="italic">1.2 Describing methods, skills and resources needed to complete digital projects successfully – what do you need to make projects successful? What tools? What
+        Skills?
+        </h2>
+        <p>
+            In order to make a project successful, you will firstly require a clear and concise project objective, together with a set of Key Performance Indicators (KPI’s) that can be used to measure whether the project has successfully met its objectives at the end.
+            <br>
+            <br>
+            The projects will require resources that have a diverse set of skills that can include planning, leadership, communication, project management, time management, risk management, subject matter experts, technology experts & testing experts. 
+            <br>
+            <br>
+            The best method to use to run and deliver a project must be selected as early as possible.  This allows specific project planning to commence, and enable the resources with the  appropriate skill sets to deliver the project to be sourced.
+            <br>
+            <br>
+            Companies that use technology to support Rapid Application Development (RAD) to focus on rapid prototyping, development and deployment of software & applications can utilise more modern project methodologies such as Agile, Scrum, Kanban and Lean, while others can use the older, more traditional methodologies such as Waterfall and PRINCE2.
+            <br>
+            <br>
+            Finally, if not already in place, the most appropriate technology to deliver the project needs to be identified and be made available.
+        </p>
+        <h2 class="italic">1.3 Plan and carry out tasks using IT – e.g. making your website. How will you plan it?
+        </h2>
+        <p>
+            <a href="https://trello.com/b/qvwEsCym/kg-html-and-css-project" target="_blank">My Trello Board</a>
+            <br>
+            <br>
+            First task is to set-up a Trello board for the project.  This will assist in the project management by allowing me to visual all required tasks, to update and track these tasks, and to prioritise and set deadlines for tasks, and to be able to quickly visual where the project is up to.
+            <br>
+            <br>
+            Research will include searching on topics of how to make a website, and this information will be used alongside the classroom teaching.  I will look at what type of things can be included in or added to a website such as file types, images, videos, animation.
+            <br>
+            <br>
+            Finally, I will search for resources that can assist me with various parts of ‘making a website’ e.g. designing, structuring, creating a mock-up, testing.
+        </p>
+        <h2 class="italic">1.4 Describe the risks that might impact digital projects – what causes digital projects to fail?  Why?
+        </h2>
+        <p>
+            Digital projects, like other projects, have many risks that could impact the success of the project.  These risks will differ from project to project, although there will be some common themes.  For a project to be successful, it is vital to identify the potential risks as soon as possible, and to put in place appropriate mitigating actions to reduce the risks turning into issues.  
+            <br>
+            <br>
+            Digital projects are exposed to some of the generic risks in any project, such as insufficient budget, poor planning, inadequate requirements and insufficient resources.  However there are some risks that would apply more to a digital project, which could cause the project to fail.  It is important to state here that project failure is not necessarily that the project does not get completed.  Project failure can be that the final product does not meet the original objectives, business requirements, or expected value.
+            <br>
+            <br>
+            Poor vendor selection is a common risk to digital projects.  Vendors could exaggerate their value in things like technical ability and capacity to deliver (time, resources), in order to secure a contract.  This must be mitigated by projects doing their due diligence, and researching things such as past projects the vendor has delivered and recent reviews of the vendors work.  Multiple options/vendors should be evaluated as part of the due diligence.
+            <br>
+            <br>
+            Another risk to a digital project is stakeholders ignoring or not fully considering the business requirements and value to the customer, and instead just going for something that they ‘think’ will make the company look and stand out.
+            <br>
+            <br>
+            Other risks to consider could include whether the technology or particular version being implemented will still be relevant or supported when released, whether your competitors have recently released or are expected to release something similar or better before your project end date, or whether your company's short term plan will make your project objective/product redundant e.g. a merger with a company that utilises different technology or has a different strategy. 
+        </p>
+        <h2 class="italic">1.5 Describe how you would go about selecting and using IT systems and software – how do you select the right kind of technology for the job?
+        </h2>
+        <p>
+           When looking to select systems and software, I would put together a list of questions and objective criteria that can be answered and satisfied by using provable facts and evidence.
+           <br>
+           <br>
+           Criteria to be considered would include the project type & size, complexity, budget versus development & build costs, time constraints (when does the project need to be delivered by?) versus specialist resource availability, is a ready-made solution available, load requirements, security, cross-platform coverage, and ongoing support & maintenance costs.[1][2] 
+           <br>
+           <br>
+           Other things to consider could include recommendations from peer companies, online research, and experience using technology in the previous project.
+           <br>
+           <br>
+           <a href="https://magora-systems.com/how-choose-technology-for-it-project/" target="_blank">[1] magora-systems.com</a>
+           <br>
+           <a href="https://www.builtinchicago.org/blog/how-choose-right-technology-stack-your-software-development-project" target="_blank">[2] builtinchicago.org</a>
+        </p> 
+        <h2>1.6 Describe and provide analysis on how your chosen technologies have helped you achieve your outcomes. – How has Trello helped you plan and how can git and GitHub help with your codes version control.
+        </h2>
+        <h3 class = "underline italic bold">Trello
+        </h3>
+        <p>
+           With Trello, I found it was a simple to use tool to help me organize tasks and track progress.
+           <br>
+           <br>
+           I was immediately able to set-up a board for my project, and then start to create project lists and add cards for each task within my project. This quickly gave me a view of my thoughts, ideas & tasks.  As an example, for the first part of the project, I was quickly able to add individual cards for the 11 questions I initially had to research and write about.  It allowed me to work through these methodically, and by moving the cards to different lists as appropriate, I was quickly able to view my progress.
+           <br>
+           <br> 
+           Setting up lists to categorise tasks into ‘To Do’, ‘Doing’ and ‘Done’ helped me to easily see and pick-up what I was working on, as well as showing me what was left to do.
+           <br>
+           <br>  
+           As the project progressed I was able to customise the board with things like adding checklists to tasks, and setting deadlines for tasks.
+        </p>
+        <h3 class = "underline italic bold">GitHub
+        </h3>
+        <p>
+           Firstly, using GitHub as a repository gave me somewhere to save, and easily find & retrieve my code.
+           <br>
+           <br> 
+           I found the initial set-up of GitHub was easy, and was quickly able to set-up a repository for each of my projects.  As GitHub is able to hold code for different languages, I was able to save all of my project code, regardless of the code language, in the same place (albeit in different repositories). 
+           <br>
+           <br>    
+           GitHub gave me the peace of mind that it would keep track of all of the changes I made to my code.  It was able to build up a version history of my code, ensuring that previous versions were not lost.  I was able to add my own notes to each version update so that it was clear what changes had been made to the code since the previous version.
+        </p> 
+        <h2>1.7 Describe legal guidelines and constraints that impact digital projects – How does GDPR impact digital projects?
+        </h2>
+        <p>
+           General Data Protection Regulation (GDPR) came into force on May 25, 2018.  This legislation is designed to "harmonise" data privacy laws across Europe as well as give greater protection and rights to individuals. The legislation affects businesses that handle personal information.[1]
+           <br>
+           <br>   
+           Privacy Regulation (ePR) has been published to broaden the scope of the current ePrivacy Directive and align the various online privacy rules that exist across EU member states. The regulation takes on board all definitions of privacy and data that were introduced within the General Data Protection Regulations, and acts to clarify and enhance it. The scope of the ePrivacy Regulation would apply to any business that provides any form of online communication service, uses online tracking technologies, or engages in electronic direct marketing. [2] 
+           <br>
+           <br>    
+           Cookies are small files that are automatically dropped on your computer as you browse the web. In and of themselves they are harmless bits of text that are locally stored and can easily be viewed and deleted, cookies can give a great deal of insight into your activity and preferences and can be used to identify your end-users.  This represents a major breach from a legal point of view, and as data technologies grow more and more sophisticated, the privacy of your end-users is increasingly compromised.  Additionally, some cookies don’t even belong to the host site, but come from third parties that use the host to track end-users for their gain and marketing purposes.
+           <br>
+           <br>
+           Therefore, for a digital project, you need to ensure that your website and cookies are compliant with GDPR?  Taking measures to comply means going through your data processes and making sure that the personal data is handled according to the new regulations.  If your website or organization processes data that is (a) directly personal, or (b) can be combined or singled out to identify an individual, then it must be revised to meet the requirements.  Adjusting your cookie policy and your GDPR cookie consent is a significant part of this process.
+           <br>
+           <br>
+           Finally, another very important consideration is the security of this personal data, ensuring your data security policy is compliant and sufficient to make the data secure. 
+           <br>
+           <br>
+           <a href="https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018" target="_blank">[1] wired.co.uk</a>
+           <br>
+           <a href="https://www.cookiebot.com/en/gdpr-cookies/" target="_blank">[2] cookiebot.com</a>
+           <br>
+           <br> 
+        </p> 
+        </div><div>
+        <a id="1.2"></a>
+        <h2 class="h2diff">Unit 1, Outcome 2 (Review)
+        <h2 class="italic">2.1 Review the ongoing use of IT tools and change approach as needed – in making your own website, are you happy with the tools you used? E.g. Visual Studio Code, Trello</h2>
+        <p>
+            <u>Visual Studio Code</u>
+            <br>
+            I was very happy with the use of this tool and found no requirement to look for an alternative. 
+            <br>
+            Once I got to grips with the basics of writing HTML & CSS in VS, I found it easy to add to, delete and amend my code.
+            <br>
+            The split screen option made it easy to view my HTML & CSS code at the same time.
+            <br> 
+            Immediately being able to view the results of any changes to my code was very helpful.
+        </p><p>
+            <u>Trello</u>
+            <br>
+            I have found Trello very useful for my project management tasks. 
+            <br>
+            Setting up different task lists and task cards was straight forward, and made it easy for me to visualise what I had to do.
+            <br>
+            Changing or updating tasks was very easy.
+        </p><p>
+        <h2 class="italic">2.2 Describe whether the IT tools selected were appropriate E.g. Visual Studio Code, Trello</h2>
+            <u>Visual Studio Code</u>
+            <br>
+            I thought VS Code was appropriate tool to use, especially for someone new to coding. 
+            <br>
+            The layout is very clear, and the basic functions are easy to learn.
+            <br>
+            The way the text is displayed & coloured as you code is user friendly, and helps see where you have made an error.  Shortcut keys (save, comments) are very useful.
+            <br> 
+            For HTML & CSS I found it easy to work on both sets of code simultaneously, and the split screen function assisted with this.
+            </p><p>
+            <u>Trello</u>
+            <br>
+            Trello is very easy to use.  For each project, your basic board can be set-up easily in a few minutes. 
+            <br>
+            There are quite a few options & functions e.g.within each card, and it can take some time to get to grips with all of these options.  The tool can still be used at a basic level without using all of the options, however to use it to its full potential, it is worth taking the time to learn these.
+            <br>
+            For someone new to the tool it can be very easy to forget to update the board.  Using the deadline tool can help with this, however I found that over time I became more disciplined and updating the tasks/board as I went along.
+        </p><p>
+            <h2 class="italic">2.3 Assess the strengths and weaknesses of your final project – are you happy with your website? Why? Why not? You should review it on the website itself in the interests of openness. What would you change?</h2>
+            <u>Strengths</u>
+                <br>
+                Questions were researched well and answered fully
+                <br>
+                Got to grips with the tools (VS Code, Trello) quickly
+                <br>
+                Used Trello well to build a view of all of my tasks
+                <br>
+                Basic coding was solid
+                <br>
+                Different methods added to website early (Menu, shortcuts, linking different pages, Bold/Underlined/Italicised text)
+                <br>
+                Web pages were clear even before adding too much styling
+                <br>
+                Pleased with a first effort in the time given
+                <br>
+                <br>
+            <u>Weaknesses</u>
+            <br>
+                Maybe too much time spent on answering the questions, and making the answers too lengthy.  Subsequently took more time to add large amounts of text into the code
+                <br>
+                Often failed to update Trello as I went along.
+                <br>
+                Website was basic.  I think too much time was spent on the questions part of the project.
+                <br>
+                Not enough thought to what I wanted the website to be e.g. theme, specific styles.
+                <br>
+                Time management in terms of not having as much time as I would have liked to try more things out on the website e.g. background images, video, animations, a bit more fun…
+                <br>
+                Throughout the project I could have had more interaction with my fellow students, either via Slack or in person to exchange ideas, discuss issues & solutions etc.
+                <br>
+                <br>
+            <u>Are you happy with your website?</u> 
+               <br>
+            I am happy with my website in terms of what I have produced given that I have had no prior knowledge or experience of building one.  I now have a ‘working’ website that I can build on.  I can also now take what I have learned on the course, build on this, and try to make a more relevant, personalised site e.g. a site for my limited company.
+            <br>
+            <br>
+            I would like to have better thought out what I wanted my website to look like before building it.  I would also have liked to improve the content on the site, by researching more around the features that can be used on a website, just to make it a little more fun, and to show that I had thought more about the final product.
+            <br> 
+        </p><p>
+        <h2 class="italic">2.4 Describe further improvements you can make to your project</h2>
+            For Trello, I would make better use of the ‘due date’ option within a task, to make sure that I was working to plan.  This would have helped with my time management, and also helped me keep the Trello board up to date.
+            <br>
+            <br>
+            As discussed earlier, I would have liked to improve the content on the site, by researching more around the features that can be used on a website, just to make it a little more fun, and to show that I had thought more about the final product. 
+            <br>
+        </p><p>
+        <h2 class="italic">2.5 Review outcomes to make sure they match requirements and are fit for purpose</h2>
+            I have:
+            <br>
+            <br>
+            - Prepared the appropriate content for my site.
+            <br>
+            - Selected and used the appropriate development techniques for clarity and good navigation.
+            <br>
+            - Selected and used the appropriate editing and formatting techniques to link information across pages.
+            <br>
+            - Ensured pages are error free and fit for purpose.
+        </p> 
+        </div><div>
+        <a id="1.3"></a>
+        <h2 class="h2diff">Unit 1, Outcome 3 (Review)
+        <h2 class="italic">3.1 Review the benefits and drawbacks of IT tools and systems used in terms of productivity and efficiency – could you have been more efficient when making your website? How? Could you have done it in teams?</h2>
+        <p>
+            When looking at the overall project, and management of this, Trello was a good tool to help with this.  It provided the ability to divide the project up into smaller chunks/tasks, and visualise these in one view.  Then by setting up seperate lists for To Do/Doing/Done, I was better able to manage the project, check that it was on plan, easily see what I was currently working on and what tasks I still had to do.
+            <br>
+            Without the experience of using Trello on a daily basis, I sometimes forgot to keep it up to date, and given the relatively short time we had for the project, I did sometimes find it an overhead to manage. 
+            <br>
+            <br>
+            For the website itself, I feel that having a visual plan of what I wanted it to look like would have helped the building of it more efficient.  Instead I ended up doing things on the fly, often having to add, delete or amend code.  I found myself having to switch from coding to researching, especially when I added something to the site that looked different on screen to what I had visualised in my head.
+            <br>
+            <br>
+            I think if working in a team, the initial research could have been divided up, so that each member looked after a certain ‘subject’ e.g. text types and formatting, images, layout, linking pages.  This certainly would have been more efficient.  When building the website, perhaps each person could then be responsible for coding their subject area, although I do not know how practical this would be in reality (multiple people working on the same web page).  This is something that I need to research further.
+            <br> 
+        </p> 
+        <h2 class="italic">3.2 Describe ways to improve productivity and efficiency</h2>
+        <p>
+            Better management of Trello to start with.  Better discipline to update the board.  Try and visualise how long each task should take in order to finish the project on time, then add due dates to all of your tasks (and stick to these).
+            <br>
+            <br>
+            Better planning of tasks.  Think about what separate tasks make up a bigger task (add these as checklist items on a trello card), how long will they take, is there a better order to carry out the tasks in? 
+            <br>
+            <br>
+            When coding, ensure that you have as much of the prep work completed before you start.  This will improve efficiency by allowing you to solely concentrate on the coding.  If you start to have to stop coding to research something or do something you had forgotten to do, this obvious slows you down, and could also lead to making mistakes (which then have to be corrected later on).
+            <br> 
+        </p>
+        <h2 class="italic">3.3 Develop solutions to improve own productivity using IT in digital projects – what would you do differently next time? Team work? Use of Slack?</h2>
+        <p>
+            When coding, using things like Functions (Python) or Class Selectors (CSS) can help productivity by setting up a command once that can be referenced and used multiple times in the code, without the need to type something out each time.
+            <br>
+            <br>
+            Use a project Management tool like Trello to help you plan out and visualise your project and tasks.  By breaking down into individual tasks, Trello helps with single-tasking, helping you give each task 100% of your time.  Focus on what you ‘should’ be doing and not on what you ‘could’ be doing.  This definitely helps you get better at managing your time. 
+            <br>
+            <br>
+            When coding, ensure that you have as much of the prep work completed before you start.  This will improve efficiency by allowing you to solely concentrate on the coding.  If you start to have to stop coding to research something or do something you had forgotten to do, this obvious slows you down, and could also lead to making mistakes (which then have to be corrected later on).
+            <br>
+        <h2 class="italic">3.4 Describe how you would go about testing digital solutions</h2>
+        <p>
+            Firstly, understand the purpose of the solution or product.  What is is supposed to do/deliver?  Review business requirements,  functional specifications, use cases, wireframes etc to fully understand the product.
+            <br>
+            <br>
+            Review the testing documents and requirements (if you haven’t produced these yourself) e.g. Test Strategy (defines the software testing approaches to be used to achieve testing objectives), Test Plan (describes the test scope and activities, what to test, when to test, how to test, and who will do the tests etc). 
+            <br>
+            <br>
+            Prepare effective test cases, which will consist of a set of conditions or actions which are performed on the software application in order to verify the expected functionality of the solution, features etc.  A standard test case should include a test case ID, test case description, any prerequisites to running the test, test steps, expected result and actual result.  If known at the time, they should also include details of the data to be used.
+            <br>
+            <br> 
+            Run the test cases as defined in the test plan (the plan should also include a test schedule).
+            <br>
+            <br> 
+            Raise defects/bugs as defined in the test plan (or defect management document if this is a separate document).
+            <br>
+            <br> 
+            Maintain and report test progress (status of each test e.g. Run/Passed/Failed/In Progress).
+            <br>
+            Maintain and report defect status (number of defects, status of each defect e.g. new defect/open defect/fixed defect awaiting retest/defect being retested).
+            <br>
+            Test and defect progress/reporting can usually be automated from the test/defect tool being used e.g. JIRA, HP ALM.
+            br>
+            <br>  
+            <br> 
+            Re-test any defect fixes.
+            <br>
+            Run regression tests (re-running tests to ensure that previously developed and tested software still performs after a change) where applicable e.g. following code deployments, defect re-tests.
+            <br>
+            <br>
+            Items I would test on the website include:
+            <br>
+            - Do all pages load and render correctly?
+            <br>
+            - Do all images load correctly?
+            <br>
+            - If you have a Navigation Bar, does it work?
+            <br>
+            - Do all your web links / URLs work?  Do they open in the same tab or a separate tab as expected?
+            <br>
+            - Do all shortcuts work?  Is the user taken to the correct place on the page?
+            <br>
+            - Do all drop-downs work?
+            <br>
+            - Spelling, Grammar, Punctuation
+        </p>    
+</p>
+</body>
+</html>
